@@ -49,7 +49,7 @@ cropView.extensions()
 
 #### Changing border shape programatically
 ```java
-cropView.setCropViewShape(overlayShape);
+cropView.setCropViewShape(CropView.Shape.OVAL);
 ```
 
 #### Adding border line & color programatically
