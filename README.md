@@ -47,6 +47,16 @@ cropView.extensions()
     .into(croppedFile))
 ```
 
+#### Changing border shape programatically
+```java
+cropView.setCropViewShape(overlayShape);
+```
+
+#### Adding border line & color programatically
+```java
+cropImage.setBorderColor(Color.WHITE);
+```
+
 Questions
 ----------
 For questions please use github issues. Mark question issue with "question" label.
@@ -55,7 +65,9 @@ Download
 --------
 
 ```groovy
-compile 'com.lyft:scissors:1.1.1'
+maven { url 'https://jitpack.io' }
+
+compile 'com.github.kelvinc1024:scissors:{shortCommitHash}'
 ```
 
 Snapshots of development version are available in [Sonatype's `snapshots` repository][snap].
