@@ -54,7 +54,7 @@ cropView.setCropViewShape(overlayShape);
 
 #### Adding border line & color programatically
 ```java
-cropImage.setBorderColor(Color.WHITE);
+cropView.setBorderColor(Color.WHITE);
 ```
 
 Questions
